@@ -214,6 +214,7 @@ public class ModItems {
 	public static final ItemBase NEBULOUS_HEART = InjectionHelper.nullValue();
 	public static final ItemBase INFERNAL_CLAW = InjectionHelper.nullValue();
 	public static final ItemBase GUARDIAN_SPIKE = InjectionHelper.nullValue();
+	public static final ItemBase PHANTOM_WING = InjectionHelper.nullValue();
 
 	@SuppressWarnings("ConstantConditions")
 	@SubscribeEvent
@@ -278,6 +279,7 @@ public class ModItems {
 		registerItem(registry, new ItemBase("kraken_shell_fragment", new Item.Properties()));
 		registerItem(registry, new ItemBase("crimson_cloth", new Item.Properties()));
 		registerItem(registry, new ItemBase("guardian_spike", new Item.Properties()));
+		registerItem(registry, new ItemBase("phantom_wing", new Item.Properties()));
 		registerCharmItems(registry, new MobCharmFragmentItem());
 		registerCharmItems(registry, new MobCharmItem());
 		registerItem(registry, new MobCharmBeltItem());

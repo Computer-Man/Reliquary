@@ -104,6 +104,21 @@
                 },
                 {
                     "type": "item",
+                    "entryName": "xreliquary:phantom_wing",
+                    "name": "xreliquary:phantom_wing",
+                    "weight": 9,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                }, 
+                {
+                    "type": "item",
                     "name": "xreliquary:angelic_feather",
                     "weight": 2
                 },

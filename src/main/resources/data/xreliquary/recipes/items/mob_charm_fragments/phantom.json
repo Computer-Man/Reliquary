@@ -1,0 +1,25 @@
+  
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PPP",
+        "STS",
+        "PPP"
+    ],
+    "key": {
+        "P": {
+            "item": "xreliquary:phantom_wing"
+        },
+        "S": {
+            "item": "minecraft:rotten_flesh"
+        },
+        "T": {
+            "item": "minecraft:bone"
+        }
+    },
+    "result": {
+        "type": "forge:nbt",
+        "item": "xreliquary:mob_charm_fragment",
+        "nbt": "{entity:\"minecraft:phantom\"}"
+    }
+}
